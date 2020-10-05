@@ -19,8 +19,15 @@ $(document).ready(function(){
       alert("Hola, mucho gusto")
     });
   });
-  
+
   //navegador movil al bajar por la pagina
 $(document).ready(function(){
     $('body').scrollspy({target: ".mainnavbar", offset: 50});   
     });
+   
+    //ventana emergente confirmando comentario enviado
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+      $("#myModal").modal();
+    });
+  });
