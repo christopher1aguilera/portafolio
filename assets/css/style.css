@@ -9,7 +9,6 @@ body {
 /*Estilo para el navegador*/
 .mainnavbar a:nth-child(1) {
     font-size: 25px;
-    color: #FFFFFF;
     font-weight: 700;
 }
 .mainnavbar {
@@ -74,9 +73,6 @@ footer p {
     font-size: 40px;
 }
 /*Estilo a los iconos*/
-.redes i {
-    color: #FFFFFF;
-}
 .experiencia i {
     color: #660066;
 }
