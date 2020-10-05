@@ -19,3 +19,8 @@ $(document).ready(function(){
       alert("Hola, mucho gusto")
     });
   });
+  
+  //navegador movil al bajar por la pagina
+$(document).ready(function(){
+    $('body').scrollspy({target: ".mainnavbar", offset: 50});   
+    });
