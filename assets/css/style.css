@@ -4,11 +4,13 @@ body {
     color: #373A3C;
     margin: 0;
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 /*Estilo para el navegador*/
 .mainnavbar a:nth-child(1) {
     font-size: 25px;
     color: #FFFFFF;
+    font-weight: 700;
 }
 .mainnavbar {
     background-color: #660066;
@@ -31,17 +33,19 @@ body {
 }
 .experiencia h3 {
     font-size: 40px;
+    font-weight: 700;
 }
 .trabajos {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 40px;
     padding-bottom: 20px;
-    background-color: #660066;    
+    background-color: #660066; 
 }
 .cartas p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .trabajos h3{
     padding-left: 20%;
@@ -58,6 +62,7 @@ body {
 }
 .contacto h3 {
     font-size: 40px;
+    font-weight: 400;
 }
 footer {
     background-color: #660066;
@@ -83,6 +88,7 @@ footer p {
 }
 .trabajos h3 {
     color: #FFFFFF;
+    font-weight: 700;
 }
 /*Tamaño del cuadro para comentar*/
 form {
@@ -90,36 +96,4 @@ form {
 }
 .ventana {
     margin-top: 40px;
-}
-/*Aparece texto para los tamaños de dispsitivos medianos en adelante*/
-@media (min-width: 576px) {
-    .informacion h3:before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.";
-    }
-}
-@media (min-width: 576px) {
-    .columna1 p:before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.";
-    }
-}
-@media (min-width: 576px) {
-    .columna2 p:before {
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.';
-    }
-}
-/*Aparece texto para los tamaños de dispsitivos medianos hacia abajo*/
-@media (max-width: 576px) {
-    .pregunta2 h3:before {
-    content: "MI EXPERIENCIA";
-    }
-}
-@media (min-width: 576px) {
-    .pregunta1 h3:before {
-    content: "¿Quieres conocer mas de mí?";
-    }
-}
-@media (min-width: 576px) {
-    .pregunta2 h3:before {
-    content: "CONTACTO";
-    }
 }
