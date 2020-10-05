@@ -6,14 +6,20 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 /*Estilo para el navegador*/
+.mainnavbar a:nth-child(1) {
+    font-size: 25px;
+    color: #FFFFFF;
+}
 .mainnavbar {
     background-color: #660066;
-    
+}
+.nav-item a {
+    font-size: 10px;
 }
 /*Imagen de fondo*/
 .hero {
     background-image: url(../img/bg_hero.png);
-    height: 500px;
+    height: 550px;
     background-repeat: no-repeat;
     padding-top: 400px;
     color: #FFFFFF;
@@ -23,6 +29,9 @@ body {
 .experiencia {
     padding-bottom: 40px;
 }
+.experiencia h3 {
+    font-size: 40px;
+}
 .trabajos {
     padding-left: 5%;
     padding-right: 5%;
@@ -31,8 +40,9 @@ body {
     background-color: #660066;    
 }
 .trabajos h3{
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 40px;
 }
 .trabajos p {
     font-family: 'Open Sans', sans-serif;
@@ -42,11 +52,17 @@ body {
     padding-top: 30px;
     padding-bottom: 70px;
 }
+.contacto h3 {
+    font-size: 40px;
+}
 footer {
     background-color: #660066;
     color: #FFFFFF;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+footer p {
+    font-size: 40px;
 }
 /*Estilo a los iconos*/
 .redes i {
@@ -59,16 +75,12 @@ footer {
     text-align: left;
 }
 .experiencia p{
-    margin: 0;
+    font-size: 25px;
 }
 .trabajos h3 {
     color: #FFFFFF;
-    text-align: center;
 }
 /*Tamaño del cuadro para comentar*/
-.form-control {
-    height: 530px;
-}
 form {
     padding-top: 40px;
 }
@@ -106,13 +118,4 @@ form {
     .pregunta2 h3:before {
     content: "CONTACTO";
     }
-}
-
-
-
-/*Aparece texto para los tamaños de dispsitivos medianos en adelante*/
-@media (min-width: 576px) {
-    .informacion span:before {
-    display: none;
-}
 }
