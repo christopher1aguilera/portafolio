@@ -39,6 +39,10 @@ body {
     padding-bottom: 20px;
     background-color: #660066;    
 }
+.cartas p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
 .trabajos h3{
     padding-left: 20%;
     padding-right: 20%;
