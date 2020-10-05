@@ -12,21 +12,24 @@ $(document).ready(function(){
       $(".form-group.collapse").collapse('hide');//esconder texto para comentar al enviar comentario
     });
   });
-
+  
+  
   //Pagina saludando al hacer click en mi nombre
-$(document).ready(function(){
+  $(document).ready(function(){
     $(".nombre").click(function(){
       alert("Hola, mucho gusto")
     });
   });
-
+  
+  
   //navegador movil al bajar por la pagina
-$(document).ready(function(){
+  $(document).ready(function(){
     $('body').scrollspy({target: ".mainnavbar", offset: 50});   
     });
-   
-    //ventana emergente confirmando comentario enviado
-$(document).ready(function(){
+  
+    
+  //ventana emergente confirmando comentario enviado
+  $(document).ready(function(){
     $("#myBtn").click(function(){
       $("#myModal").modal();
     });

@@ -75,7 +75,6 @@ form {
 .ventana {
     margin-top: 40px;
 }
-
 /*Aparece texto para los tamaños de dispsitivos medianos en adelante*/
 @media (min-width: 576px) {
     .informacion h3:before {
@@ -112,8 +111,8 @@ form {
 
 
 /*Aparece texto para los tamaños de dispsitivos medianos en adelante*/
-@media (max-width: 576px) {
-    .pagos :before {
+@media (min-width: 576px) {
+    .informacion span:before {
     display: none;
 }
 }

@@ -11,14 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
   <title>Portafolio</title>
 
-  <!-- Bootstrao 4.5.2 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-​
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
   <!--Mi script-->
   <script src="assets/js/script.js"></script>
 
@@ -31,7 +23,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top mainnavbar">
     <div class="container">
-      <a class="navbar-brand" href="#" style="color: #FFFFFF;">M</a>
+      <a class="navbar-brand" href="#" style="color: #FFFFFF;">M</a><!--modificar a-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -59,23 +51,23 @@
 <section class="hero">
   <div class="container">
     <div class="row">
-  <h2 class="col-12">YO SOY</h2>
-  <span class="col-4"></span>
-  <span class="border-bottom col-4"></span>
-  <span class="col-4"></span>
-  <h2 class="nombre col-12">MAGDALENA</h2>
-</div>
-</div>
+      <h2 class="col-12">YO SOY</h2>
+<span class="col-4"></span>
+<span class="border-bottom col-4"></span>
+<span class="col-4"></span>
+      <h2 class="nombre col-12">MAGDALENA</h2>
+    </div>
+  </div>
 </section>
 <!--Informacion sobre mi-->
 <section class="informacion" id="sobre-mi">
   <div class="container">
     <div class="row">
       <h3 class="col-12"></h3><!--texto aparece para dispositivos tamaño md en adelante-->
-      <div class="columna1 col-md-6" style="width: 18rem;">
+      <div class="columna1 col-6">
         <p></p><!--texto aparece para dispositivos tamaño md en adelante-->
       </div>
-      <div class="columna2 col-md-6" style="width: 18rem;">
+      <div class="columna2 col-6">
         <p></p><!--texto aparece para dispositivos tamaño md en adelante-->
       </div>
     </div>
@@ -87,9 +79,9 @@
     <div class="row">
       <h3 class="col-12">MI EXPERIENCIA</h3>
       <!--linea de borde-->
-      <span class="col-5"></span>
-      <span class="border-bottom col-2"></span>
-      <span class="col-5"></span>
+<span class="col-5"></span>
+<span class="border-bottom col-2"></span>
+<span class="col-5"></span>
       <!--linea de borde-->
       <div class="empire col-sm-12 col-md-6">
         <a href="https://empire.com" target="_blank"><i class="fab fa-empire fa-10x"></i></a>
@@ -108,12 +100,12 @@
 <section class="trabajos" id="trabajos">
   <div class="container">
     <div class="row">
-    <h3 class="col-12">MIS ÚLTIMOS TRABAJOS</h3>
-          <!--linea de borde-->
-          <span class="col-5"></span>
-          <span class="border-bottom col-2"></span>
-          <span class="col-5"></span>
-          <!--linea de borde-->
+      <h3 class="col-12">MIS ÚLTIMOS TRABAJOS</h3>
+      <!--linea de borde-->
+<span class="col-5"></span>
+<span class="border-bottom col-2"></span>
+<span class="col-5"></span>
+      <!--linea de borde-->
     </div>
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col mb-4">
@@ -191,75 +183,6 @@
     </div>
   </div>
 </section>
-<!--Contacto-->
-<section class="contacto" id="contacto">
-  <div class="container">
-    <div class="row">
-      <div class="pregunta1 col-12">
-        <h3></h3><!--texto aparece para dispositivos tamaño md en adelante-->
-      </div>
-      <div class="pregunta2 col-12">
-        <h3 class="col-12"></h3><!--texto aparece para dispositivos tamaño md en adelante-->
-        <span class="col-4"></span>
-        <span class="border-bottom col-4"></span>
-        <span class="col-4"></span>
-        <form>
-          <div class="otra">
-            <button type="button" class="btn btn-secondary mostrar2" data-dismiss="modal"> Enviar mensaje </button><!--boton para mostrar el cuadro para comentar-->
-        </div>
-      </form>
-    </div>
-  </div>
-<!--Cuadro para comentar-->
-  <div class="container">
-    <div class="form-group collapse">
-      <label for="comment"></label>
-      <textarea class="form-control" rows="5" id="comment"></textarea>
-      <button class="btn btn-primary btn-lg mostrar1" id="myBtn">Enviar</button><!--boton para enviar comentario-->
-    </div>
-  <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-      <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Se envio correctamente tu comentario.</p><!--contenido del cuadro emergente-->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>  
-  </div>
-<!--formulario-->
-  <button type="button" class="btn btn-secondary ventana" data-dismiss="modal"> Comenzar </button><!--boton para mostrar formulario-->
-  <div class="formulario collapse">
-    <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-  </div>
-</section>
-<!-- Este es mi formulario pero no me funciono, copie el que venia en oliva ros
-<section id="mostrar" class="hide">
-  <div class="typeform-widget" data-url="https://form.typeform.com/to/yRMi0oIC" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=yRMi0oIC&utm_source=typeform.com-01EKNW3QJKWXDCP4VHPK41PXQZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-</section>
--->
-<!--pie pagina-->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="logo col-sm-12 col-md-6">
-        <p>MAGDALENA</p>
-      </div>
-      <div class="redes col-sm-12 col-md-6">
-        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="github.com"><a href="https://github.com"  target="_blank"><i class="fab fa-github-square fa-3x"></i></a></button>
-        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="linkedin.com"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></button>
-        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="twitter.com"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></button>
-        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="facebook.com"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></button>
-      </div>
-    </div>
-  </div>
-</footer>
-
 <div class="cartas">
   <!--cartas abiertas-->
   <!--carta 1 abierta-->
@@ -388,6 +311,78 @@
       </div>
     </div>
   </div>
+</div>
+<!--Contacto-->
+<section class="contacto" id="contacto">
+  <div class="container">
+    <div class="row">
+      <div class="pregunta1 col-12">
+        <h3></h3><!--texto aparece para dispositivos tamaño md en adelante-->
+      </div>
+      <div class="pregunta2 col-12">
+        <h3 class="col-12"></h3><!--texto aparece para dispositivos tamaño md en adelante-->
+        <span class="col-4"></span>
+        <span class="border-bottom col-4"></span>
+        <span class="col-4"></span>
+        <form>
+          <button type="button" class="btn btn-secondary mostrar2" data-dismiss="modal"> Enviar mensaje </button><!--boton para mostrar el cuadro para comentar-->
+        </form>
+    </div>
   </div>
-  </body>
-  </html>
+<!--Cuadro para comentar-->
+  <div class="container">
+    <div class="form-group collapse">
+      <label for="comment"></label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <button class="btn btn-primary btn-lg mostrar1" id="myBtn">Enviar</button><!--boton para enviar comentario-->
+    </div>
+  <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+            <p>Se envio correctamente tu comentario.</p><!--contenido del cuadro emergente-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+<!--formulario-->
+  <button type="button" class="btn btn-secondary ventana" data-dismiss="modal"> Comenzar </button><!--boton para mostrar formulario-->
+  <div class="formulario collapse">
+    <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+  </div>
+</section>
+<!-- Este es mi formulario pero no me funciono, copie el que venia en oliva ros
+<section id="mostrar" class="hide">
+  <div class="typeform-widget" data-url="https://form.typeform.com/to/yRMi0oIC" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=yRMi0oIC&utm_source=typeform.com-01EKNW3QJKWXDCP4VHPK41PXQZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+</section>
+-->
+<!--pie pagina-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <p class="logo col-sm-12 col-md-6">MAGDALENA</p>
+      <div class="redes col-sm-12 col-md-6">
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="github.com"><a href="https://github.com"  target="_blank"><i class="fab fa-github-square fa-3x"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="linkedin.com"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="twitter.com"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="facebook.com"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrao 4.5.2 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+​
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
