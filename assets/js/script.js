@@ -12,3 +12,10 @@ $(document).ready(function(){
       $(".form-group.collapse").collapse('hide');//esconder texto para comentar al enviar comentario
     });
   });
+
+  //Pagina saludando al hacer click en mi nombre
+$(document).ready(function(){
+    $(".nombre").click(function(){
+      alert("Hola, mucho gusto")
+    });
+  });
