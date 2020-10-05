@@ -1,0 +1,77 @@
+/*Estilo para toda la pagina*/
+body {
+    text-align: center;
+    color: #373A3C;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+/*Estilo para el navegador*/
+.mainnavbar {
+    background-color: #660066;
+    
+}
+/*Imagen de fondo*/
+.hero {
+    background-image: url(../img/bg_hero.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    color: #FFFFFF;
+    background-size: cover;
+    background-position: center; /*centrar imagen*/
+}
+.experiencia {
+    padding-bottom: 40px;
+}
+.trabajos {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #660066;    
+}
+.trabajos h3{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.trabajos p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+.contacto {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+footer {
+    background-color: #660066;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*Estilo a los iconos*/
+.redes i {
+    color: #FFFFFF;
+}
+.experiencia i {
+    color: #660066;
+}
+.informacion p {
+    text-align: left;
+}
+.experiencia p{
+    margin: 0;
+}
+.trabajos h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+/*Tamaño del cuadro para comentar*/
+.form-control {
+    height: 530px;
+}
+form {
+    padding-top: 40px;
+}
+.ventana {
+    margin-top: 40px;
+}
